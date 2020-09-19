@@ -1,0 +1,24 @@
+.subHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.subHeader__electronics {
+  display: flex;
+  align-items: center;
+}
+
+.subHeader__electronics > p {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(77, 73, 73);
+  cursor: pointer;
+}
+
+.subHeader__electronics > p:hover {
+  color: #2874f0;
+}

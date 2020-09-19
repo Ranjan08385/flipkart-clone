@@ -1,0 +1,13 @@
+.subBanner {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.subBanner > img {
+  width: 438px;
+  margin: 5px;
+  object-fit: contain;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}

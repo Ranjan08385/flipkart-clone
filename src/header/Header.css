@@ -1,0 +1,142 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #2874f0;
+  justify-content: space-evenly;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.header__mainLogo {
+  cursor: pointer;
+}
+
+.header__logo {
+  width: 80px;
+}
+
+.header__sublogo {
+  cursor: pointer;
+}
+
+.header__sublogo:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+.header__sublogo > p {
+  color: #fff;
+  font-style: italic;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.header__sublogo > p > span {
+  color: #ffe500;
+}
+
+.header__sublogo > p > span > img {
+  width: 10px;
+  height: 10px;
+}
+
+.header__search {
+  width: 40%;
+  border: 1px solid #f6f6f6;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.header__search > input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.header__loginBtn > button {
+  width: 120px;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #2874f0;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.header__more {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__more > p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.header__cart {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header__cart > p {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.login__menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+  margin-top: 12px;
+  width: 225px;
+  margin-left: -50px;
+}
+
+.header__loginBtn:hover .login__menu {
+  display: block;
+}
+
+.login__menu > .loginMenu__options:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.login__signup {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid rgb(235, 232, 232);
+}
+
+.login__newCust {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.login__signupText {
+  font-size: 14px;
+  color: #2874f0;
+  font-weight: bold;
+}
+
+.loginMenu__options {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid rgb(235, 232, 232);
+  align-items: center;
+}
+
+.loginMenu__options > p {
+  margin-left: 10px;
+  font-size: 14px;
+}
